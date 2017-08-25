@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: https://fathomless-hamlet-29169.herokuapp.com/
+  provider: heroku
+  api_key:
+    secure: FVLby5Khy70yo4TaVLt/J0dXXk5XNyritj2jcmtw81297avQLtJpu/RyS3sds+A5Rej7u/WP8lVT/8JgUSmuyJOCnOwUv4yZ/h+En1DGTLKYG0Rpd/umCja6MAG7G0HbvbD1DZKNzPaMZrtdlAS+1r3UbxBPrR3Kx/cOWOsX6C6ycM0jlUilSQ11wCfsD4Rbmmx4NTMv2B98t2bpcfxJqrcedAhMQXhixaNZ0isx7rgZXPRXzh5xQnvYiAkk1YinN+ZdHZDlPC5X+eufwRqXv7H31maMME4mdGraAAznOweHGqRnOuH0Z+apvnurodm4dJczYJWpOCP2Bc+H1MNu6Rko2S5eEf8llwJZwqYWNU8XOtXeRMAu7rYB4ASC0mBCONrwRnIC4VEp2l+3c2BzLYRCB9tabcJa+UnBwq2Z1zxcp3pbie1iu56yAf0NutRVQYOuaMl4GYPofzNu3kt1558ThRgMhhLLwJEkGnGCEmTLoqq82WD0DJRK5XgqeuwHoLaky+SJmq1IthK6x/4cTCVPJCU5H8TMxA/YIzGTbWrJV5lFp7vwTHKm1sXpKip1ZzcnJrM4I2Zu0PHe7x9ZzaaDLpzQQWLehBAl9sZ6zzLU/yrCfOM3UiuZo2wqRvb5A9eUlGfv/6edf+M/wF2Rolef1Gh80tgzuSAzplYeJkc=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: Laurawbrooklyn/node-shopping-list-integration-tests
